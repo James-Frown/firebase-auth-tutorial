@@ -15,7 +15,7 @@ const Dashboard: NextPage = () => {
       items.push({
         name: faker.commerce.productName(),
         price: faker.commerce.price(),
-        seller: faker.name.findName(),
+        seller: faker.name.fullName(),
       });
     }
     setItemData(items);
